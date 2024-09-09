@@ -40,14 +40,15 @@ nav img{
 }
 
 .nav-links ul li a{
+    color:rgb(151, 71, 151);
     text-decoration: none;
 }
 
 .nav-links ul li::after{
     content: "";
-    width: 100%;
+    width: 0%;
     height: 2px;
-    background: rgb(173, 88, 173);
+    background: rgb(151, 71, 151);
     display: block;
     margin: auto;
     transition: 0.5s;
