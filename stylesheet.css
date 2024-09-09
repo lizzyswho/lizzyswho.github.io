@@ -8,6 +8,7 @@ body {
 
 header {
     background-color: white;
+    color: rgb(173, 88, 173);
     background-position: center;
     background-size: cover;
     position: relative;
