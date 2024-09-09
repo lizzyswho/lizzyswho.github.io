@@ -10,7 +10,9 @@
         <header>
             <nav>
                 <a href="index.html"><img src="images/logo.jpg"></a>
-                <div class="nav-links">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hidemenu()"></i>
+                    
                     <ul>
                         <li><a href="">INÍCIO</a></li>
                         <li><a href="">SOBRE</a></li>
@@ -18,6 +20,7 @@
                         <li><a href="">CONTATO</a></li>
                     </ul>
                 </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
             </nav>
 
         </header>
@@ -42,6 +45,20 @@
             </div>
             
         </section>
-        
+
+        <!-----------JavaScript para Menu de Telefone------------>
+        <script>
+            var navLinks = document.getElementById("navLinks")
+
+            function showmenu(){
+                navLinks.style.right = "0";
+
+            }
+            function hidemenu(){
+                navLinks.style.right = "-200px";
+                
+            }
+
+        </script>
     </body>
 </html>
