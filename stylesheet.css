@@ -165,6 +165,7 @@ nav .fa{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 h1{
@@ -190,4 +191,8 @@ h3{
 h5{
     color: rgb(141, 42, 141);
     text-align: center;
+}
+
+.sobre-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
