@@ -100,9 +100,28 @@ nav img{
     cursor: pointer;
 }
 
+.hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(151, 71, 151);
+    border: 1px solid rgb(151, 71, 151);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
 .hero-btn:hover{
     border: 1px solid rgb(151, 71, 151);
     background: rgb(151, 71, 151);
+    transition: 1s;
+}
+
+.hero-btn2:hover{
+    border: 1px solid #fff;
+    background: rgb(151, 71, 151);
+    color: #fff;
     transition: 1s;
 }
 
@@ -253,9 +272,22 @@ h5{
 
 .contato{
     width: 80%;
-    margin: auto;
+    margin: 100px auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: white;
     color: rgb(151, 71, 151);
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
