@@ -221,6 +221,7 @@ h5{
 
 .eventos-col img{
     width: 100%;
+    display: block;
 }
 
 .layer{
