@@ -184,7 +184,7 @@ nav .fa{
 
 .sobre-col{
     flex-basis: 32%;
-    background: rgb(141, 42, 141);
+    background: #fff;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -193,7 +193,7 @@ nav .fa{
 }
 
 h1{
-    color: rgb(141, 42, 141);
+    color: #fff;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
@@ -213,7 +213,7 @@ h3{
 }
 
 h5{
-    color: rgb(141, 42, 141);
+    color: #fff;
     text-align: center;
 }
 
@@ -281,8 +281,7 @@ h5{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: white;
-    color: rgb(151, 71, 151);
+
 }
 
 .footer{
