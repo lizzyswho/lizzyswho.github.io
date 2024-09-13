@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'exemplodesite@tal.com';
+$email_from = 'lizzyswho.github.io';
 
 $email_subject = '';
 
