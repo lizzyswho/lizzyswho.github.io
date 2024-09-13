@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <title>NEABI</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hidemenu()"></i>
+                
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="about.html">SOBRE</a></li>
+                    <li><a href="events.html">EVENTOS</a></li>
+                    <li><a href="contact.html">CONTATO</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+    </header>
+    <body>
+
+        <section class="eventos">
+            <h3>Eventos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div class="row">
+                <div class="eventos-col">
+                    <img src="images/abril-indígena.png">
+                    <div class="layer">
+                        <h3>Abril Indígena</h3>
+                    </div>
+                </div>
+                <div class="eventos-col">
+                    <img src="images/julho-das-pretas.png">
+                    <div class="layer">
+                        <h3>Julho Das Pretas</h3>
+                    </div>
+                </div>
+                <div class="eventos-col">
+                    <img src="images/agosto-lilás.png">
+                    <div class="layer">
+                        <h3>Agosto Lilás</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Extras</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+
+        <!-----------JavaScript para Menu de Telefone------------>
+        <script>
+            var navLinks = document.getElementById("navLinks")
+
+            function showmenu(){
+                navLinks.style.right = "0";
+
+            }
+            function hidemenu(){
+                navLinks.style.right = "-200px";
+                
+            }
+
+        </script>
+    </body>
+</html>

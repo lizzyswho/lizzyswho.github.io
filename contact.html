@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <title>NEABI</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hidemenu()"></i>
+                
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="about.html">SOBRE</a></li>
+                    <li><a href="events.html">EVENTOS</a></li>
+                    <li><a href="contact.html">CONTATO</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+    </header>
+    <body>
+
+        <section class="contato">
+            <h1>Saiba Mais</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="" class="hero-btn2">CONTATE-NOS</a>
+        </section>
+
+        <section class="footer">
+            <h4>Extras</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+
+        <!-----------JavaScript para Menu de Telefone------------>
+        <script>
+            var navLinks = document.getElementById("navLinks")
+
+            function showmenu(){
+                navLinks.style.right = "0";
+
+            }
+            function hidemenu(){
+                navLinks.style.right = "-200px";
+                
+            }
+
+        </script>
+    </body>
+</html>

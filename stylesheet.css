@@ -64,8 +64,13 @@ nav img{
 .inicio{
     background-color: rgb(173, 88, 173);
     color: white;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 250px;
+    padding-top: 0px;
+    padding-bottom: 100px;
 }
 
 .text-box{
@@ -163,12 +168,12 @@ nav .fa{
     width: 100%;
     margin-left: 0px;
     margin-right: 10px;
-    margin-top: 300px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 100px;
     padding-bottom: 10px;
-    background-color: #fff;
-    color: #fff;
+    background: rgb(173, 88, 173);
+    color: rgb(173, 88, 173);
 }
 
 .row{
@@ -281,9 +286,14 @@ h5{
 }
 
 .footer{
+    background-color: #fff;
+    background: #fff;
+    color: rgb(151, 71, 151);
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: auto;
 }
 
 .footer h4{
