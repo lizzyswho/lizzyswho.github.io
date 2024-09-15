@@ -244,6 +244,7 @@ h5{
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .eventos-col img{
