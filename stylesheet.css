@@ -258,6 +258,7 @@ h5{
     top: 0;
     left: 0;
     transition: 0,5s;
+    cursor: pointer;
 }
 
 .layer:hover{
