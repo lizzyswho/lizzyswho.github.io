@@ -236,12 +236,13 @@ h5{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .eventos-col{
     flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
